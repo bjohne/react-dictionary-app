@@ -1,13 +1,18 @@
 .Results section {
-  background: white;
+  background: #f5f5f5;
   padding: 30px;
   margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 5px 5px 5px green;
+  border-radius: 4px;
 }
 
 .Results h2 {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .Results h2 {
+    font-size: 30px;
+  }
 }

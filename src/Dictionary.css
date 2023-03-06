@@ -1,21 +1,27 @@
 .Dictionary section {
-  background: white;
+  background: #f4f5d3;
+  opacity: 0.8;
   padding: 30px;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 5px 5px 5px green;
 }
 
-.Dictionary h3 {
+.Dictionary .question {
   font-size: 16px;
   opacity: 0.8;
   margin-bottom: 20px;
 }
 
 .Dictionary input {
-  width: 100%;
+  border-radius: 4px;
   padding: 6px 4px 6px 8px;
   border: 1px solid #ddd;
+}
+.Dictionary .searchbar {
+  width: 100%;
+}
+.Dictionary .searchbutton {
+  width: 100%;
 }
 .Dictionary .hint {
   font-size: 12px;
