@@ -1,13 +1,14 @@
 .Dictionary section {
-  background: #f4f5d3;
+  background: #eeeeee;
   opacity: 0.8;
   padding: 30px;
   margin: 20px 0;
   border-radius: 8px;
+  text-align: center;
 }
 
 .Dictionary .question {
-  font-size: 16px;
+  font-size: 18px;
   opacity: 0.8;
   margin-bottom: 20px;
 }
@@ -15,16 +16,29 @@
 .Dictionary input {
   border-radius: 4px;
   padding: 6px 4px 6px 8px;
-  border: 1px solid #ddd;
+  border: 3px solid #ff5722;
 }
 .Dictionary .searchbar {
-  width: 100%;
+  width: 50%;
 }
 .Dictionary .searchbutton {
-  width: 100%;
+  background: #ff5722;
+  color: white;
+  text-align: center;
 }
+.Dictionary .searchbutton:hover {
+  background: #ff5722;
+  opacity: 0.8;
+  color: white;
+}
+
 .Dictionary .hint {
   font-size: 12px;
   margin-top: 6px;
   color: grey;
+}
+@media (max-width: 500px) {
+  .Dictionary .searchbar {
+    width: 60%;
+  }
 }

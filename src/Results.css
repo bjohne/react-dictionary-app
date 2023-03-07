@@ -11,7 +11,7 @@
   line-height: 1.5;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .Results h2 {
     font-size: 30px;
   }
