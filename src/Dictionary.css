@@ -37,8 +37,13 @@
   margin-top: 6px;
   color: grey;
 }
+
 @media (max-width: 500px) {
+  .Dictionary .question {
+    font-size: 14px;
+  }
+
   .Dictionary .searchbar {
-    width: 60%;
+    width: 64%;
   }
 }
