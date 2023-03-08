@@ -40,10 +40,15 @@
 
 @media (max-width: 500px) {
   .Dictionary .question {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .Dictionary .searchbar {
     width: 64%;
+  }
+}
+@media (max-width: 392px) {
+  .Dictionary .question {
+    font-size: 14px;
   }
 }
